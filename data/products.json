@@ -1,0 +1,75 @@
+[
+    {
+      
+      "name": "MOTOROLA Edge 20 Pro ",
+       "image": "/images/Motorola-edge-20-Pro-Blue-Vegan-Leather-1024x978.jpg",
+      "description":
+        "108 MP Quad Function Camera System You can capture realistic photos with the motorola edge pro’s 108 MP Ultra High-resolution Sensor. You can take sharp images no matter the light condition, thanks to the Ultra Pixel technology that supports up to nine times the light sensitivity. You wont have to lose out on clarity using the Super Zoom feature",
+      "brand": "Moto",
+      "category": "Electronics",
+      "price": 35199 ,
+      "countInStock": 10,
+      "rating": 4,
+      "numReviews": 0
+    },
+    {
+      "name": "realme 9 Pro+ 5G",
+      "image": "/images/realme-9-pro-plus-5g-660x800-1645001897.jpg",
+      "description":
+        "The phone comes with a 6.60-inch touchscreen display with a resolution of 1080x2412 pixels. Realme 9 Pro 5G is powered by an octa-core Qualcomm Snapdragon 695 processor. It comes with 6GB of RAM. The Realme 9 Pro 5G runs Android 12 and is powered by a 5000mAh battery.",
+      "brand": "Realme",
+      "category": "Electronics",
+      "price": 17999,
+      "countInStock": 10,
+      "rating": 4,
+      "numReviews": 0
+    },
+    {
+      "name": "Infinix Note 11s",
+      "image": "/images/blue_2_1000x1497.jpg",
+      "description":
+        "The phone comes with a 6.95-inch touchscreen display with a resolution of 1080x2460 pixels. Infinix Note 11S is powered by an octa-core MediaTek Helio G96 processor. It comes with 4GB of RAM. The Infinix Note 11S runs Android 11 and is powered by a 5000mAh removable battery.",
+      "brand": "Infinix",
+      "category": "Electronics",
+      "price": 12999,
+      "countInStock": 5,
+      "rating": 3,
+      "numReviews": 0
+    },
+    {
+      "name": "FAD-E Edge To Edge Tempered Glass for realme 9 Pro 5G, realme 9 Pro ",
+      "image": "/images/rlme-9-pro-black-glas-5-royalbase-original-imagbh6yfhff6jyj.jpeg",
+      "description":
+        "Ecomaholics-- Frequently Asked Questions: 1. The flexibility of the Glass Screen Protector is just the same as the plastic material,Is it made of tempered glass or plastic? This screen protector is a real tempered glass.The plastic like flexibility is the exact reason why we call it tempered glass screen protector.Tempered or toughened glass is a type of safety glass processed by controlled thermal or chemical treatments to increase its strength compared with normal glass. 2. Does it come with a cleaning wipe to use prior to placing on the phone? Yes,the package includes: 2 x Wet Wipe & 2 x Dry Wipe 3.",
+      "brand": "tempered glass",
+      "category": "Acessories",
+      "price": 199,
+      "countInStock": 10,
+      "rating": 3,
+      "numReviews": 0
+    },
+    {
+      "name": "realme Buds Wireless 2 Neo with Type-C Fast Charge & Bass Boost+ Bluetooth Headset",
+      "image": "/images/rma2011-realme-original-imag68fqfqbydmrx.jpg",
+      "description":
+        "realme bluetooth headset with mic bass ",
+      "brand": "realme",
+      "category": "Electronics",
+      "price": 1449,
+      "countInStock": 7,
+      "rating": 3,
+      "numReviews": 0
+    },
+    {
+      "name": "CareFone Back Cover for Realme 9 pro 5G",
+      "image": "/images/41b0Ja62zJL.jpg",
+      "description":
+        "backcover for realme 9 pro",
+      "brand": "Amazon",
+      "category": "Electronics",
+      "price": 100,
+      "countInStock": 4,
+      "rating": 3,
+      "numReviews": 0
+    }
+  ]
