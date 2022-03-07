@@ -31,7 +31,7 @@ app.use('/api/upload', uploadRoutes)
 app.use('/api/category', categoryRoutes)
 
 app.get('/api/config/paypal', (req, res) =>
-  res.send('AfwoMF0JAp3KlNJpoQEUhBeV3o4o2IJ2pXznPRcwZQKtLp4nowHel1glX2PzynVY0RdE8AulPWI5KoZe')
+  res.send('your paypal id')
 )
 
 const __dirname = path.resolve()
