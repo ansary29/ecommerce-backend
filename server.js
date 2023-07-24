@@ -5,7 +5,7 @@ import colors from 'colors'
 import morgan from 'morgan'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 import connectDB from './config/db.js'
-
+import cors from 'cors'
 import productRoutes from './routes/productRoutes.js'
 import userRoutes from './routes/userRoutes.js'
 import orderRoutes from './routes/orderRoutes.js'
@@ -18,9 +18,24 @@ connectDB()
 
 const app = express()
 
-if (process.env.NODE_ENV === 'development') {
-  app.use(morgan('dev'))
-}
+const corsOpts = {
+  origin: '*',
+
+  methods: [
+    'GET',
+    'POST',
+  ],
+
+  allowedHeaders: [
+    'Content-Type',
+  ],
+};
+
+app.use(cors(corsOpts));
+
+// if (process.env.NODE_ENV === 'development') {
+//   app.use(morgan('dev'))
+// }
 
 app.use(express.json())
 
@@ -31,23 +46,23 @@ app.use('/api/upload', uploadRoutes)
 app.use('/api/category', categoryRoutes)
 
 app.get('/api/config/paypal', (req, res) =>
-  res.send('your paypal id')
+  res.send('AfwoMF0JAp3KlNJpoQEUhBeV3o4o2IJ2pXznPRcwZQKtLp4nowHel1glX2PzynVY0RdE8AulPWI5KoZe')
 )
 
 const __dirname = path.resolve()
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '/frontend/build')))
+// if (process.env.NODE_ENV === 'production') {
+//   app.use(express.static(path.join(__dirname, '/client/build')))
 
-  app.get('*', (req, res) =>
-    res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
-  )
-} else {
-  app.get('/', (req, res) => {
-    res.send('API is running....')
-  })
-}
+//   app.get('*', (req, res) =>
+//     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+//   )
+// } else {
+//   app.get('/', (req, res) => {
+//     res.send('API is running....')
+//   })
+// }
 
 app.use(notFound)
 app.use(errorHandler)
