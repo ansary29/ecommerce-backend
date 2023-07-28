@@ -18,20 +18,20 @@ connectDB()
 
 const app = express()
 
-const corsOpts = {
-  origin: '*',
+// const corsOpts = {
+//   origin: '*',
 
-  methods: [
-    'GET',
-    'POST',
-  ],
+//   methods: [
+//     'GET',
+//     'POST',
+//   ],
 
-  allowedHeaders: [
-    'Content-Type',
-  ],
-};
+//   allowedHeaders: [
+//     'Content-Type',
+//   ],
+// };
 
-app.use(cors(corsOpts));
+app.use(cors());
 
 // if (process.env.NODE_ENV === 'development') {
 //   app.use(morgan('dev'))
