@@ -71,5 +71,31 @@
       "countInStock": 4,
       "rating": 3,
       "numReviews": 0
+    },
+    {
+      
+      "name": "Mi Power 20000mah",
+       "image": "/images/product-jpeg-500x500.jpg",
+      "description":
+        "Mi Powerbank 20000mah lithium battery",
+      "brand": "Redmi",
+      "category": "Electronics",
+      "price": 999 ,
+      "countInStock": 10,
+      "rating": 3.5,
+      "numReviews": 0
+    },
+    {
+      
+      "name": "realme powerbank 20000mah",
+       "image": "/images/1314179313498587136.jpeg",
+      "description":
+        "Realme 20000mah lithium battery",
+      "brand": "Redmi",
+      "category": "Electronics",
+      "price": 899 ,
+      "countInStock": 10,
+      "rating": 3.5,
+      "numReviews": 0
     }
   ]
